@@ -1,0 +1,26 @@
+{
+  "name": "alfred-journal",
+  "version": "0.0.1",
+  "description": "An alfred extension that adds a note to today's journal entry (and creates the journal entry if you don't already have one).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "gulp",
+    "start": "node ./dist/app/index.js",
+    "deploy": "gulp && node ./dist/app/index.js"
+  },
+  "author": "Drew Hays <drewshays@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.1",
+    "del": "^2.2.0",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.10.0",
+    "jade": "^1.11.0",
+    "merge2": "^1.0.0",
+    "q": "^1.4.1",
+    "request": "^2.67.0"
+  }
+}
