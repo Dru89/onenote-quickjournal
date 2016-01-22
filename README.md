@@ -1,4 +1,4 @@
-# A Thing! <small>(...name pending, I guess)</small>
+# A Thing! *(...name pending, I guess)*
 
 Remembering things is hard.  It's especially hard when you're in the middle of
 something super important and just want to take a quick note:
