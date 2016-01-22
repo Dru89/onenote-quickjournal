@@ -50,7 +50,7 @@ OAuth system:
    with the token passed in the request.
 1. We store the token, and redirect the user to a landing page that explains
    how to use the tool.  (A sort of `man` page, I guess.)
-1. Shut down the service, because it's not needed anymore.
+1. Shut down the server, because it's not needed anymore.
 
 So that's a little bit gross, but I don't know of a better way to get the token
 without doing something similar.  Another approach to this, I guess, would be to
