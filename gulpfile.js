@@ -13,7 +13,7 @@ gulp.task('copy', ['clean'], function() {
 
 gulp.task('compile', ['clean'], function() {
   var proj = tsc.createProject('tsconfig.json');
-  var result = gulp.src(['app/**/*.ts', 'typings/**/*.d.ts'])
+  var result = gulp.src(['app/**/*.ts', 'typings/**/*.d.ts', 'types/**/*.d.ts'])
                    .pipe(tsc(proj, { typescript: require('typescript') }));
 
   return merge([

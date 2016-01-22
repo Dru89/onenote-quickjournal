@@ -31,6 +31,9 @@
     },
     "q/Q.d.ts": {
       "commit": "3a666d1bff92e944488c25599ec56a4937c17c4e"
+    },
+    "open/open.d.ts": {
+      "commit": "4a8a2ed5c35be37a5f1a199a391be21548c81c09"
     }
   }
 }

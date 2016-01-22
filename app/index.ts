@@ -1,11 +1,11 @@
 'use strict';
-require('source-map-support').install();
 
-import app = require('./app');
-app.set('port', process.env.PORT || 32567);
+import token = require('./auth/token');
 
-let server = app.listen(app.get('port'), function() {
-  console.log(`Listening on port ${server.address().port}`);
-});
-
-export = server;
+token.get().then(function(code) {
+  console.log(`${code}`);
+}).fail(function(reason) {
+  console.log(`Something went wrong!\n${reason}`);
+}).done(function() {
+  console.log("Yeeeeey! We did it!");
+})
